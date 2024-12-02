@@ -12,11 +12,12 @@ class Calculator:
     name = "Calculator"
     version = "1.0"
 
-    # # Constructor
-    # def __init__(self, name, version):
-    #     # Instance Variables
-    #     self.name = name
-    #     self.version = version
+    # Constructor
+    def __init__(self, name, version):
+        # Instance Variables
+        self.name = name
+        self.version = version
+        print("Calculator is initialized with name:", name, "and version:", version)
 
     # Methods
     def add(self, a, b):
@@ -31,7 +32,9 @@ class Calculator:
     def divide(self, a, b):
         return a / b 
     
+    def print_info(self):
+        print("Name:", self.name, "Version:", Calculator.version)
 # Create an object of Calculator class
-calc = Calculator()
+calc = Calculator("calc", "1.0")
 print(calc.add(5, 3))
 print(calc.name) 
