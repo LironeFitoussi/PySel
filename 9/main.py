@@ -6,12 +6,8 @@ from selenium.webdriver.chrome.service import Service
 # it downloads the 90.0.4430.24 version of the chrome driver.
 # it translates the version of the chrome driver to the version of the chrome browser.
 # it downloads the chrome driver from the official site.
-# it sets the path of the chrome driver to the PATH environment variable.
-# it sets the path of the chrome driver to the webdriver.Chrome() method.
 # and executes the code.
 
-# If we want to use a specific version of the chrome driver, 
-# then we can download the chrome driver from the official site and set the path of the chrome driver to the PATH environment variable.
 driver = webdriver.Chrome()
 driver.get("https://www.google.com")
 
