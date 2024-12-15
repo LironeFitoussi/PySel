@@ -31,9 +31,10 @@ def test_first_program():
     print("Hello World")
     assert driver.title == "ProtoCommerce", "Title is not matching" # This will pass
 
-def test_second_program_alpha():
+def test_second_program_alpha(setup):
     print("Hello World 2")
     assert driver.title == "ProtoCommerce - ProtoCommerce", "Title is not matching" # This will fail
     
 # used Flag -s to see the print statements in the console
 # used Flag -v to see the verbose output of the test cases
+
