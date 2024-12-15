@@ -3,7 +3,8 @@
 # Any code should be wrapped in method only
 # To run tests, go to terminal and type pytest -v -s
 # -v is for verbose, -s is for console output
-
+# We can mark the test cases using the decorator @pytest.mark
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -24,6 +25,8 @@ driver = webdriver.Chrome(service=service_obj, options=options)
 driver.implicitly_wait(5)
 driver.get("https://rahulshettyacademy.com/angularpractice/")
 
+@pytest.mark.smoke
+@pytest.mark.skip
 def test_first_program():
     print("Hello World")
     assert driver.title == "ProtoCommerce", "Title is not matching" # This will pass

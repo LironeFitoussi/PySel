@@ -1,4 +1,7 @@
+import pytest
 
+# Marking the test cases
+@pytest.mark.smoke
 def test_third_program():
     msg = "Hello World"
     assert msg == "Hello Bro", "Message is not matching" # This will fail
