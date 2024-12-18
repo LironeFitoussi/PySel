@@ -1,0 +1,13 @@
+2024-12-18 18:39:57,095 - INFO - test_logging - This is an info message
+2024-12-18 18:39:57,095 - WARNING - test_logging - This is a warning message
+2024-12-18 18:39:57,095 - ERROR - test_logging - This is an error message
+2024-12-18 18:39:57,095 - CRITICAL - test_logging - This is a critical message
+2024-12-18 18:39:57,095 - INFO - test_logging - This will not appear.
+2024-12-18 18:39:57,095 - ERROR - test_logging - This will appear.
+2024-12-18 18:39:57,108 : INFO : test_logging_demo : Test case started
+2024-12-18 18:39:57,108 : DEBUG : test_logging_demo : Loading test data...
+2024-12-18 18:39:57,108 : ERROR : test_logging_demo : An error occurred!
+2024-12-18 18:39:57,110 - INFO - test_logging - Starting test_logging_demo.
+2024-12-18 18:39:57,110 - WARNING - test_logging - Simulated warning in the test case.
+2024-12-18 18:39:57,110 - ERROR - test_logging - Simulated error in the test case.
+2024-12-18 18:39:57,110 - CRITICAL - test_logging - Simulated critical issue in the test case.
