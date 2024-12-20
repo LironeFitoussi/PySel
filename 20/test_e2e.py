@@ -1,50 +1,41 @@
-import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import pytest
 from utilities.base_class import BaseClass
+from page_objects.home_page import HomePage
+from data.shop_page_data import ShopPageData
 
 class TestOne(BaseClass):
-    def test_e2e(self):
+    def test_e2e(self, get_data):
+        log = self.getLogger()
         driver = self.driver
         try:
-            driver.find_element(By.CSS_SELECTOR, "a[href*='shop']").click()
-            products = driver.find_elements(By.XPATH, "//div[@class='card h-100']")
-
-            # Phaze 1 - Find the product and add it to the cart
-            for product in products:
-                product_name = product.find_element(By.XPATH, "div/h4/a").text
-                if product_name == "Blackberry":
-                    product.find_element(By.XPATH, "div/button").click()
-
-            # Phaze 2 - Go to the cart
-            driver.find_element(By.CSS_SELECTOR, "a[class*='btn-primary']").click()
-
-            # Phaze 3 - Checkout
-            driver.find_element(By.CSS_SELECTOR, "button[class*='btn-success']").click()
-
-            # Phaze 4 - Enter the country
-            driver.find_element(By.ID, "country").send_keys("ind")
-
-            # 4a - Wait for the country to appear
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.LINK_TEXT, "India")))
-            driver.find_element(By.LINK_TEXT, "India").click()
-
-            # 4b - Click the checkbox
-            driver.find_element(By.XPATH, "//div[@class='checkbox checkbox-primary']").click()
-
-            # 4c - Click the purchase button
-            driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
-
-            # Phaze 5 - Get the success message
-
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "alert-success")))
-            success_message = driver.find_element(By.CLASS_NAME, "alert-success").text
+            # Home Page Operations
+            home_page = HomePage(driver)
+            log.info(f"Testing on phone: {get_data['phone']}")
+            # Checkout Page Operations
+            checkout_page = home_page.shop_items() #! This will return the CheckoutPage object
+            checkout_page.add_item(get_data["phone"])
+            log.info(f"Added {get_data['phone']} to cart")
+            confirm_page = checkout_page.check_out_items() #! This will return the ConfirmPage object
+            log.info("Navigated to Confirm Page")
+            # Confirm Page Operations
+            confirm_page.confirm_purchase()
+            confirm_page.find_country("ind")
+            country = self.select_country("India")
+            country.click()
+            log.info("Selected country")
+            confirm_page.confirm_checkbox()
+            confirm_page.purchase()
+            log.info("Purchased the phone")
+            success_message = confirm_page.wait_for_success_message()
 
             assert "Success! Thank you!" in success_message
-        except:
-            print("An error occurred")
+            
+            # Refresh the page
+            driver.refresh()
+        except Exception as e:
+            print(e)
             assert False
-        finally:
-            time.sleep(5)
-            driver.quit()
+            
+    @pytest.fixture(params=ShopPageData.test_phones_data)
+    def get_data(self, request):
+        return request.param

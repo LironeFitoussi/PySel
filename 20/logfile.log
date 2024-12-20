@@ -1,0 +1,279 @@
+2024-12-20 12:37:03,891 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 12:37:03,994 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 12:37:04,018 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:37:04,049 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 12:37:04,085 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:37:04,103 :INFO : test_form_submission :Selected Male 
+2024-12-20 12:37:04,388 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 12:37:04,414 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 12:37:04,440 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:37:04,462 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 12:37:04,491 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:37:04,521 :INFO : test_form_submission :Selected Female 
+2024-12-20 12:39:55,178 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 12:39:56,277 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 12:39:56,311 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:40:02,107 :INFO : test_e2e :Selected country
+2024-12-20 12:40:02,166 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:40:02,828 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 12:40:02,916 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 12:40:02,937 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:40:09,211 :INFO : test_e2e :Selected country
+2024-12-20 12:40:09,260 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:40:09,529 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 12:40:09,622 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 12:40:09,642 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:40:15,401 :INFO : test_e2e :Selected country
+2024-12-20 12:40:15,461 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:40:15,719 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 12:40:15,819 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 12:40:15,839 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:40:21,083 :INFO : test_e2e :Selected country
+2024-12-20 12:40:21,140 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:40:26,112 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 12:40:26,220 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 12:40:26,241 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:40:26,269 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 12:40:26,297 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:40:26,323 :INFO : test_form_submission :Selected Male 
+2024-12-20 12:40:26,608 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 12:40:26,635 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 12:40:26,655 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:40:26,685 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 12:40:26,709 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:40:26,739 :INFO : test_form_submission :Selected Female 
+2024-12-20 12:44:37,332 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 12:52:46,183 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 12:52:47,289 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 12:52:47,317 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:52:52,645 :INFO : test_e2e :Selected country
+2024-12-20 12:52:52,704 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:52:53,359 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 12:52:53,484 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 12:52:53,506 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:52:58,752 :INFO : test_e2e :Selected country
+2024-12-20 12:52:58,807 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:52:59,064 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 12:52:59,204 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 12:52:59,227 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:53:04,462 :INFO : test_e2e :Selected country
+2024-12-20 12:53:04,521 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:53:04,788 :INFO : test_e2e :Testing on phone: blackberry
+2024-12-20 12:53:04,916 :INFO : test_e2e :Added blackberry to cart
+2024-12-20 12:53:04,939 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:53:10,216 :INFO : test_e2e :Selected country
+2024-12-20 12:53:10,271 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:53:15,431 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 12:53:15,552 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 12:53:15,579 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:53:15,612 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 12:53:15,650 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:53:15,667 :INFO : test_form_submission :Selected Male 
+2024-12-20 12:53:15,950 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 12:53:15,981 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 12:53:16,003 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:53:16,029 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 12:53:16,054 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:53:16,086 :INFO : test_form_submission :Selected Female 
+2024-12-20 12:54:14,364 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 12:54:15,472 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 12:54:15,500 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:54:20,817 :INFO : test_e2e :Selected country
+2024-12-20 12:54:20,878 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:54:21,521 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 12:54:21,658 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 12:54:21,680 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:54:26,944 :INFO : test_e2e :Selected country
+2024-12-20 12:54:26,998 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:54:27,242 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 12:54:27,388 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 12:54:27,412 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:54:32,659 :INFO : test_e2e :Selected country
+2024-12-20 12:54:32,722 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:54:32,985 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 12:54:33,140 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 12:54:33,162 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:54:38,427 :INFO : test_e2e :Selected country
+2024-12-20 12:54:38,482 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:54:38,736 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 12:54:38,857 :INFO : test_e2e :Added Sony Xperia to cart
+2024-12-20 12:54:38,880 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 12:54:44,143 :INFO : test_e2e :Selected country
+2024-12-20 12:54:44,199 :INFO : test_e2e :Purchased the phone
+2024-12-20 12:54:49,686 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 12:54:49,770 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 12:54:49,794 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:54:49,825 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 12:54:49,885 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:54:49,907 :INFO : test_form_submission :Selected Male 
+2024-12-20 12:54:50,190 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 12:54:50,225 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 12:54:50,248 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 12:54:50,286 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 12:54:50,310 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 12:54:50,344 :INFO : test_form_submission :Selected Female 
+2024-12-20 13:03:33,888 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 13:03:34,671 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 13:03:34,698 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:03:40,041 :INFO : test_e2e :Selected country
+2024-12-20 13:03:40,101 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:03:40,724 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 13:03:40,873 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 13:03:40,896 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:03:46,161 :INFO : test_e2e :Selected country
+2024-12-20 13:03:46,217 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:03:46,468 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 13:03:46,605 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 13:03:46,627 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:03:51,883 :INFO : test_e2e :Selected country
+2024-12-20 13:03:51,941 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:03:52,205 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 13:03:52,363 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 13:03:52,383 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:03:57,643 :INFO : test_e2e :Selected country
+2024-12-20 13:03:57,698 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:03:57,957 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 13:04:03,539 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 13:04:03,616 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 13:04:03,639 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:04:03,671 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 13:04:03,726 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:04:03,746 :INFO : test_form_submission :Selected Male 
+2024-12-20 13:04:04,017 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 13:04:04,046 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 13:04:04,069 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:04:04,098 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 13:04:04,131 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:04:04,161 :INFO : test_form_submission :Selected Female 
+2024-12-20 13:06:22,654 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 13:06:23,753 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 13:06:23,781 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:06:29,104 :INFO : test_e2e :Selected country
+2024-12-20 13:06:29,165 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:06:29,793 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 13:06:29,927 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 13:06:29,949 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:06:35,215 :INFO : test_e2e :Selected country
+2024-12-20 13:06:35,260 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:06:35,513 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 13:06:35,649 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 13:06:35,672 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:06:40,908 :INFO : test_e2e :Selected country
+2024-12-20 13:06:40,968 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:06:41,233 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 13:06:41,381 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 13:06:41,403 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:06:46,643 :INFO : test_e2e :Selected country
+2024-12-20 13:06:46,696 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:06:46,958 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 13:06:53,341 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 13:06:53,430 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 13:06:53,451 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:06:53,481 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 13:06:53,509 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:06:53,534 :INFO : test_form_submission :Selected Male 
+2024-12-20 13:06:53,819 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 13:06:53,846 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 13:06:53,866 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:06:53,892 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 13:06:53,917 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:06:53,950 :INFO : test_form_submission :Selected Female 
+2024-12-20 13:10:37,114 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 13:10:38,227 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 13:10:38,256 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:10:43,605 :INFO : test_e2e :Selected country
+2024-12-20 13:10:43,660 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:10:44,308 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 13:10:44,460 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 13:10:44,483 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:10:49,748 :INFO : test_e2e :Selected country
+2024-12-20 13:10:49,803 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:10:50,067 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 13:10:50,208 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 13:10:50,231 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:10:55,485 :INFO : test_e2e :Selected country
+2024-12-20 13:10:55,547 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:10:55,801 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 13:10:55,938 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 13:10:55,965 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:11:01,229 :INFO : test_e2e :Selected country
+2024-12-20 13:11:01,285 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:11:01,539 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 13:11:07,041 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 13:11:07,130 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 13:11:07,153 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:11:07,184 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 13:11:07,214 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:11:07,262 :INFO : test_form_submission :Selected Male 
+2024-12-20 13:11:07,526 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 13:11:07,556 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 13:11:07,580 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:11:07,627 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 13:11:07,677 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:11:07,719 :INFO : test_form_submission :Selected Female 
+2024-12-20 13:13:23,038 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 13:13:23,792 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 13:13:23,820 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:13:29,121 :INFO : test_e2e :Selected country
+2024-12-20 13:13:29,177 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:13:29,825 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 13:13:29,952 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 13:13:29,975 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:13:35,207 :INFO : test_e2e :Selected country
+2024-12-20 13:13:35,254 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:13:35,518 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 13:13:35,667 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 13:13:35,689 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:13:40,914 :INFO : test_e2e :Selected country
+2024-12-20 13:13:40,967 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:13:41,215 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 13:13:41,342 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 13:13:41,363 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:13:46,607 :INFO : test_e2e :Selected country
+2024-12-20 13:13:46,654 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:13:46,903 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 13:13:51,753 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 13:13:51,827 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 13:13:51,851 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:13:51,874 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 13:13:51,904 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:13:51,939 :INFO : test_form_submission :Selected Male 
+2024-12-20 13:13:52,219 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 13:13:52,240 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 13:13:52,260 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:13:52,279 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 13:13:52,302 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:13:52,326 :INFO : test_form_submission :Selected Female 
+2024-12-20 13:16:09,373 :INFO : test_e2e :Testing on phone: Sony Xperia
+2024-12-20 13:16:10,573 :INFO : test_e2e :Testing on phone: iphone X
+2024-12-20 13:16:10,687 :INFO : test_e2e :Added iphone X to cart
+2024-12-20 13:16:10,714 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:16:16,020 :INFO : test_e2e :Selected country
+2024-12-20 13:16:16,074 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:16:16,721 :INFO : test_e2e :Testing on phone: Samsung Note 8
+2024-12-20 13:16:16,849 :INFO : test_e2e :Added Samsung Note 8 to cart
+2024-12-20 13:16:16,871 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:16:22,111 :INFO : test_e2e :Selected country
+2024-12-20 13:16:22,165 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:16:22,440 :INFO : test_e2e :Testing on phone: Nokia Edge
+2024-12-20 13:16:22,558 :INFO : test_e2e :Added Nokia Edge to cart
+2024-12-20 13:16:22,579 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:16:27,828 :INFO : test_e2e :Selected country
+2024-12-20 13:16:27,875 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:16:28,133 :INFO : test_e2e :Testing on phone: Blackberry
+2024-12-20 13:16:28,280 :INFO : test_e2e :Added Blackberry to cart
+2024-12-20 13:16:28,301 :INFO : test_e2e :Navigated to Confirm Page
+2024-12-20 13:16:33,535 :INFO : test_e2e :Selected country
+2024-12-20 13:16:33,588 :INFO : test_e2e :Purchased the phone
+2024-12-20 13:16:39,927 :INFO : test_form_submission :Testing on Rahul Shetty
+2024-12-20 13:16:40,025 :INFO : test_form_submission :Filled in first name: Rahul
+2024-12-20 13:16:40,048 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:16:40,070 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-20 13:16:40,099 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:16:40,118 :INFO : test_form_submission :Selected Male 
+2024-12-20 13:16:40,397 :INFO : test_form_submission :Testing on Anushka Shetty
+2024-12-20 13:16:40,419 :INFO : test_form_submission :Filled in first name: Anushka
+2024-12-20 13:16:40,439 :INFO : test_form_submission :Filled in last name: Shetty
+2024-12-20 13:16:40,459 :INFO : test_form_submission :Filled in password: qwertyuio
+2024-12-20 13:16:40,482 :INFO : test_form_submission :Clicked checkbox
+2024-12-20 13:16:40,507 :INFO : test_form_submission :Selected Female 
