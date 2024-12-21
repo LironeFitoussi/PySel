@@ -9,13 +9,17 @@ from datetime import datetime
 
 # Command Line Options:
 def pytest_addoption(parser):
+    # Browser Options
     parser.addoption("--browser_name", action="store", default="chrome")
-
+    
+    # Environment Options
+    parser.addoption("--run-env", action="store", default="dev") # dev, qa, prod
 
 @pytest.fixture(scope="class")
 def setup(request):
     # Set up the WebDriver
     global driver
+    url = None
     browser_name = request.config.getoption("--browser_name")
     if browser_name == "chrome":
         options = webdriver.ChromeOptions()
@@ -30,8 +34,17 @@ def setup(request):
         options = webdriver.SafariOptions()
         options.add_argument("--headless")
         driver = webdriver.Safari(options=options)
-        
-    driver.get("https://rahulshettyacademy.com/angularpractice/")
+    
+    # Set the URL based on the environment
+    env = request.config.getoption("--run-env")
+    if env == "dev":
+        url = "https://rahulshettyacademy.com/angularpractice/"
+    elif env == "qa":
+        url = "https://rahulshettyacademy.com/angularpractice/"
+    elif env == "prod":
+        url = "https://rahulshettyacademy.com/angularpractice/"
+    
+    driver.get(url)
     driver.maximize_window()
     request.cls.driver = driver
     yield
