@@ -1,0 +1,6 @@
+2024-12-21 20:34:16,387 :INFO : test_form_submission :Testing on Lirone Fitoussi
+2024-12-21 20:34:16,497 :INFO : test_form_submission :Filled in first name: Lirone
+2024-12-21 20:34:16,529 :INFO : test_form_submission :Filled in last name: Fitoussi
+2024-12-21 20:34:16,562 :INFO : test_form_submission :Filled in password: 123456789
+2024-12-21 20:34:16,604 :INFO : test_form_submission :Clicked checkbox
+2024-12-21 20:34:16,629 :INFO : test_form_submission :Selected Male 
